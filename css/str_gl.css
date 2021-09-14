@@ -1,0 +1,285 @@
+a,p,span,ul,li{
+			font-family:"Times New Roman",Georgia,Serif,Tahoma, Arial ;
+}
+
+a:link	{
+	color:YELLOW;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:visited	{
+	color:WHITE;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:hover {
+	color:YELLOW;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;
+	}
+#loading{
+			width:100%; 
+			text-align:left; 
+			top:0px; 
+			left:0px;
+}
+#load_img{
+		border:0px; 
+		width:128px; 
+		height:15px;
+}
+.button_ustaw {
+	text-decoration: none;
+	float: right;
+	list-style: none;
+	margin-right:10px;
+	text-decoration: none;
+	display: block;
+	width: 60px;
+	height:13px;
+	text-align: center;
+	background-color: ORANGE;
+	color: #000;
+	border: 2px outset ORANGE;
+	padding: 2px;
+	font-weight:bold;
+	font-size:11px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.button_ustaw:hover {
+text-decoration: none;
+	float: right;
+	background-color: ORANGE;
+	list-style: none;
+	margin-right:10px;
+	width: 60px;
+	height:13px;
+	border-style: inset;
+	padding: 2px;
+	color:#FFFFFF;
+	font-size:11px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+table, th, td {
+	border: 1px solid white;
+    border-collapse: collapse;
+} 
+.naglowek {
+font-weight:bold;
+font-size:18px;
+background-color:white;
+border:0px;
+}
+body{
+		background-color:WHITE;
+}
+.DIV_MAIN{
+			background-color:#E6E6FA; 
+			border:1px; 
+			border-style:solid; 
+			border-radius:10px; 
+			margin:5px; 
+			border-color:orange;
+}
+.P_HREF_BACK{
+			text-align: left; 
+			margin:20px;
+}
+.P_HREF_BACK2{
+			text-align: center; 
+			margin:20px;
+}
+.P_PODAJ{
+			text-align: center;
+			color:black;
+			font-size: 16px; 
+			font-weight:bold;
+}
+.S_DODAJ{
+		color:#0099FF;
+}
+.TAB_TREN{
+			background-color:#E6E6FA; 
+			width:790px; 
+			border:1px;
+}
+a.A_BACK:link	{
+	color:#0099FF;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	}
+a.A_BACK:visited	{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	}
+
+a.A_BACK:hover {
+	color:#000000;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;
+	}
+ul{
+	display: block;
+	list-style: none;
+	margin:0px;
+	padding: 0px;	
+	float: center;	
+}
+
+li {
+	display: block;
+	list-style: none;
+	margin:0px;
+	padding: 0px;	
+	float: center;	
+}
+
+ul a.TAB_TRENING:link, ul a.TAB_TRENING:visited {
+	text-decoration: none;
+	display: block;
+	width: 205px;
+	height:20px;
+	text-align: center;
+	background-color: ORANGE;
+	color: #000;
+	border: 2px outset ORANGE;
+	font-weight:bold;
+	font-size:18px;
+	margin:0px;
+	padding:5px;
+}
+
+ul a.TAB_TRENING:hover {
+	width: 205px;
+	height:20px;
+	border-style: inset;
+	color:#FFFFFF;
+	font-size:18px;
+	margin:0px;
+	padding: 5px;
+}
+.P_TD{
+		text-align: center; 
+		font-size: 16px; 
+		font-weight:bold; 
+		background:#6495ED;
+		noresize:noresize;
+		margin:0px;
+		padding:2px;
+}
+.P_MAIN{
+		font-weight:bold;
+		font-size:24px;
+		color:black;
+		text-align:center;
+}
+.P_SUBMIT{
+		text-align: right; 
+		margin:20px;
+}
+.P_LEG{
+		color:black;
+		font-weight:bold;
+		font-size:16px;
+		text-align:left;
+		margin-left:50px;
+}
+.P_LEG_INFO{
+			text-align:left;
+			margin-left:45px;
+}
+.S_LEG_INFO{
+			color:#B700FF;
+			font-weight:bold;
+}
+.P_INFO{
+		text-align:left; 
+		color:black; 
+		margin:10px;
+		font-size:14px;
+		font-weight:normal;
+}
+.S_INFO{
+		color:green;
+		font-size:14px;
+}
+.P_ERROR{
+		text-align:left;
+		color:red;
+		font-size:14px;
+		margin:10px;
+		font-weight:normal;
+}
+.P_ERR_MAIN{
+			text-align: center; 
+			font-size: 22px; 
+			font-weight:bold; 
+			color:red;
+			margin-top:50px;
+}
+.S_ERROR{
+		color:black;
+}
+.P_SEL{
+		margin:5px;
+		text-align:center;
+}
+.SEL_S{
+		height:23px;
+		width:170px;
+}
+.OPTION_R{
+			font-weight:bold; 
+			color: BLACK ;
+			background: none repeat scroll 0%  0% white;
+}
+.DIV_BUTTON{
+			width:710px;
+			height:20px;
+			margin-left:70px;
+}
+.P_MAIN_NG{
+			font-size: 22px;
+			font-weight:bold;
+			color:red;
+			margin-top:50px;
+			}
+.S_MAIN_NG{
+				color:orange;
+				font-size:22px;
+				}
+.A_BACK_MAIN:link, .A_BACK_MAIN:visited{
+					color:#0099FF;
+					font-weight:bold;
+					text-decoration:none;
+					font-size:18px;
+}
+.A_BACK_MAIN:hover {
+					color:#000000;
+					}
+.P_INC_OK{
+	text-align:left; 
+	color:green; 
+	margin:10px;
+	font-size:16px;
+	font-weight:normal;
+	font-family: Times New Roman, Georgia, Serif;
+}
+.P_INC_ERR{
+	text-align:left; 
+	color:red; 
+	margin:10px;
+	font-size:16px;
+	font-weight:normal;
+	font-family: Times New Roman, Georgia, Serif;
+}
+.S_INC{
+	color:black;
+}

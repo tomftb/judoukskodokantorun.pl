@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0px 0px 0px 0px; /* gora prawy dol lewy*/
+	padding: 0px 0px 0px 0px; /* gora prawy dol lewy*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+#cookieinfo * {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+  font-family: 'Redressed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Redressed'), url('/font/Redressed.ttf') format('truetype');
+}
+p.p_button{
+	font-family:Redressed;
+	font-size:26px;
+	margin:0px 0px 0px 0px;  /* gora prawy dol lewy*/	
+	text-align:center;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:0px;
+	/* background-color:red;*/
+}
+a.button:link, a.button:visited{
+
+	font-weight:normal;
+	color:rgb(65, 121, 154);
+	text-decoration: none;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+a.button:hover{
+
+	color:rgb(0, 0, 0);
+	text-decoration: none;
+	font-weight:bold;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+}
+div.buttonTop{
+		background-image:url('/images/buttonBackground/buttonTop.jpg');
+		background-repeat: no-repeat;
+		width:160px;
+		height:15px;
+		margin:0px;
+}
+div.buttonBottom{
+		background-image:url('/images/buttonBackground/buttonBottom.jpg');
+		background-repeat: no-repeat;
+		width:160px;
+		margin:0px;
+		height:17px;
+}
+div.buttonMiddle{
+		background-image:url('/images/buttonBackground/buttonMiddle.jpg');
+		background-repeat: repeat-y;
+		width:160px;
+		height:1px;
+}
+.glowne_zdj{
+			border: 0px solid black;
+			margin: 0px 0px 0px 0px; /* gora prawy dol lewy*/	
+			padding: 0px 0px 0px 0px; /* gora prawy dol lewy*/
+			display:block;
+}
+#cookieinfo {
+    position:fixed ; /*fixed  */
+	top: 0;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    left: 0px;
+    /*bottom: 0px;*/
+    right: 0px;
+    background-color: #323334;
+    padding: 10px;
+    box-shadow: 0px -1px 3px rgba(0, 0, 0, 0.5);
+   z-index: 1000;
+}
+
+#cookieinfo h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #cdd7da;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    margin-bottom: 2px;
+}
+
+#cookieinfo p {
+    font-size: 12px;
+    color: #afb4bc;
+    line-height: 1.5em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+}
+
+#cookieinfo a {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ff6000;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+#cookieinfo a:hover {
+    background-color: #ff7925;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+body {
+	background-image:url('../images/tlo.png');
+	background-repeat: repeat;
+}
+a.expand {
+	width: 90px;
+	display: block;
+	margin: 10px 0 0;
+}
+a.expand:hover {
+	height: 500px;
+}
+DIV.caleokno {
+	width: 952px;
+	border: 0px solid blue;
+}
+DIV.naglowek {
+	border: 0px solid green;
+	background:#f7b0b8; /* #FFE680*/ 
+	background-image:url('../images/NEW_naglowek.png'); 
+	background-repeat: no-repeat;	
+	height:350px;
+}
+/* SRODKOWE OKNO
+-----------------------------------------------------------------------------*/
+DIV.SRODEK {
+	background: white;
+	float: left;
+	width: 739px;
+}
+/* LEWA KRAWEDZ
+-----------------------------------------------------------------------------*/
+DIV.LEWA_KRAWEDZ {
+
+	float: left;
+	width: 175px;
+	background-image:url('../images/NEW_side_left_small.png');
+	background-repeat: repeat-y;
+	height:1200px;
+}
+/* PRAWA KRAWEDZ
+-----------------------------------------------------------------------------*/
+DIV.PRAWA_KRAWEDZ {
+
+	float: right;
+	width: 28px;
+	background-image:url('../images/NEW_side_right_small.png');
+	background-repeat:  repeat-y;
+	height:1200px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+DIV.stopka {
+
+	height: 60px;
+	background: #BFF08E;
+	background-image:url('../images/NEW_stopka.jpg');
+	background-repeat: no-repeat;
+	clear:both;
+}
+p.P_LOGIN{
+		text-align:right;
+}
+.LOGIN:link	{
+	color:BLACK;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	font-family:"Times New Roman",Georgia,Serif;
+	margin:0px;	
+	}
+.LOGIN:visited	{
+	color:BLACK;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	font-family:"Times New Roman",Georgia,Serif;
+	margin:0px;	
+	}
+.LOGIN:hover {
+	color:#59a8b2;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;
+	font-family:"Times New Roman",Georgia,Serif;
+	margin:0px;	
+	}
+.nawigacja_ul{
+	list-style-type: none;
+    padding: 0px 0px 0px 0px; /* gora prawy dol lewy*/
+	margin: 0px 0px 0px 2px; /* gora prawy dol lewy*/
+}
+.nawigacja_li{
+	list-style-type: none;
+    padding: 0px 0px 0px 0px; /* gora prawy dol lewy*/
+    margin: 0px 0px 0px 4px; /* gora prawy dol lewy*/
+}
+/* iFrame */
+.FRAME{ 
+		display:block;
+		height:1200px;
+		WIDTH:750px; 
+		border:none; 
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+}

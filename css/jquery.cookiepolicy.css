@@ -1,0 +1,21 @@
+.cookiepolicy {
+	background: #efefef;
+	bottom: 0;
+	font: 14px Arial, Helvetica, sans-serif;
+	left: 0;
+	padding: 15px 50px;
+	position: fixed;
+	right: 0;
+	text-align: center;
+}
+
+.cookiepolicy .button {
+	background: #444;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 5px;
+	padding: 5px 10px;
+}

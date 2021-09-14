@@ -1,0 +1,1 @@
+var galTable= new Array(); var galx = 0;

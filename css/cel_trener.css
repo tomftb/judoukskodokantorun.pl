@@ -1,0 +1,444 @@
+a,p,span,ul,li{
+			font-family:"Times New Roman",Georgia,Serif,Tahoma, Arial ;
+}
+div {
+	width:800px;
+}
+table, th, td,tr {
+	border: 0px solid white;
+    border-collapse: collapse;
+	vertical-align:top;
+} 
+textarea{
+	margin-top:10px;
+	padding:0px;
+	resize:none;
+}
+td.TD_L{
+		width:390px;
+}
+td.TD_R{
+		width:350px;
+}
+.s_button_off {
+	float:right;
+	margin-bottom:5px;
+	text-decoration: none;
+	display: block;
+	width: 74px;
+	height:28px;
+	text-align: center;
+	background-color:  #D8D8D8;
+	color: #000;
+	border: 2px outset #D8D8D8;
+	padding: 4px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.s_button_off:hover {
+	color: #000;
+	border: 2px outset #D8D8D8;
+	background-color:  #D8D8D8;
+}
+.DIV_MAIN{
+			background-color:#E6E6FA; 
+			border:1px; 
+			border-style:solid;
+			border-color:orange;
+			border-radius:10px; 
+			margin:5px;
+}
+.DIV_DANE{
+			float:center;
+			width:790px;
+			margin-top:20px;
+			margin:5px;
+			background-color:white;
+			border:1px solid grey;
+}
+.DIV_IMG{
+		margin-top:20px;
+		display:table-cell;
+		float:center;
+		padding-left:0px; 
+		padding-bottom:5px;
+}
+.DIV_OPCJ{
+			width:800px; 
+			height:40px; 
+			display:table-cell; 
+			vertical-align:top;
+			margin-bottom:15px;
+			padding-top:0px;
+			margin-right:0px;
+}
+.DIV_CLEAR{
+			clear:both;
+			height:0px;
+}
+.DIV_INFO{ 
+			height:50px;
+}
+div.DIV_DODAJ{
+			padding-top:0px; 
+			padding-left:0px; 
+			width:740px; 
+			padding-bottom:5px;
+			border:1px solid black;
+			margin-top:0px;
+			margin-bottom:5px;
+}
+.S_NG_MAIN{
+			float:left; 
+			color: #0099FF ;
+			margin:10px;
+			font-size: 16px;
+}
+.S_NG_INF{
+		color: black; 
+		font-size: 18px; 
+		font-weight: bold;
+}
+span.S_STAT{
+		color: black; 
+		font-size: 18px;
+		font-weight: bold; 
+}
+span.S_STAT_N{
+		color: red; 
+		font-size: 18px;
+		font-weight: bold; 
+}
+a:link	{
+	color:black;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:visited	{
+	color:black;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:hover {
+	color:blue;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;
+	}
+#loading{
+			width:100%; 
+			text-align:left; 
+			top:0px; 
+			left:0px;
+}
+#load_img{
+		border:0px; 
+		width:128px; 
+		height:15px;
+}
+.naglowek {
+font-weight:bold;
+font-size:18px;
+background-color:white;
+border:0px;
+}
+body{
+		background-color:WHITE;
+}
+.P_HREF_BACK{
+			text-align: left; 
+			margin:20px;
+}
+.P_HREF_BACK2{
+			text-align: center; 
+			margin:20px;
+}
+.P_PODAJ{
+			text-align: center;
+			color:black;
+			font-size: 16px; 
+			font-weight:bold;
+}
+.P_BACK{
+			text-align: center;
+			color:black;
+			font-size: 16px; 
+			font-weight:bold;
+}
+.P_BACK .S_BACK{
+		font-weight:normal;
+}
+.P_BACK .S_BACK2{
+		color:#0099FF;
+}
+
+.P_INPUT{
+			padding-top:0px;
+			text-align:left;
+			margin-left:10px;
+			margin-top:10px;
+			margin-bottom:5px;
+		}
+p.NG_DANE{
+			text-align: left; 
+			font-size: 20px; 
+			font-weight:bold;
+			margin-left:50px;
+}
+span.S_NG_DANE{
+				color:#B700FF;
+}
+.S_DODAJ{
+		color:#0099FF;
+}
+.TAB_TREN{
+			background-color:#E6E6FA; 
+			width:790px; 
+			border:1px;
+}
+.P_SQL_OK{
+			color:green;
+			font-size:14px;
+			text-align:center;
+			margin:5px;
+}
+.S_SQL{
+			color:black;
+}
+.P_SQL_ERR{
+			color:red;
+			font-size:14px;
+			text-align:center;
+			margin:5px;
+}
+span.S_CSS{
+			color:purple;
+			font-weight:bold;
+			font-size:14px;
+}
+.CSS_CHBOX{
+		border:1px solid purple;
+}
+/*-------------------------------*/
+.P_POZ_BUT{
+			margin-right:330px;
+			margin-top:0px;
+			margin-bottom:0px;
+}
+a.A_BACK:link, a.A_BACK:visited 	{
+	color:#0099FF;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	}
+a.A_BACK:hover {
+	color:#000000;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;
+	}
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 205px;
+	height:20px;
+	text-align: center;
+	background-color: ORANGE;
+	color: #000;
+	border: 2px outset ORANGE;
+	font-weight:bold;
+	font-size:18px;
+	margin:0px;
+	padding:5px;
+}
+ul a:hover {
+	width: 205px;
+	height:20px;
+	border-style: inset;
+	color:#FFFFFF;
+	font-size:18px;
+	margin:0px;
+	padding: 5px;
+}
+.P_TD{
+		text-align: center; 
+		font-size: 16px; 
+		font-weight:bold; 
+		background:#6495ED;
+		noresize:noresize;
+		margin:0px;
+		padding:2px;
+}
+.P_MAIN{
+		font-weight:bold;
+		font-size:24px;
+		color:black;
+		text-align:center;
+}
+.P_SUBMIT{
+		text-align: right; 
+		margin:20px;
+}
+.P_LEG{
+		color:black;
+		font-weight:bold;
+		font-size:16px;
+		text-align:left;
+		margin-left:50px;
+}
+.P_LEG_INFO{
+			text-align:left;
+			margin-left:45px;
+}
+.S_LEG_INFO{
+			color:#B700FF;
+			font-weight:bold;
+}
+.P_INFO{
+		text-align:left; 
+		color:green; 
+		margin:5px;
+		font-size:14px;
+		font-weight:normal;
+}
+.S_INFO{
+		color:black;
+}
+.P_ERROR{
+		text-align:left;
+		color:red;
+		font-size:14px;
+		margin:10px;
+		font-weight:normal;
+}
+.P_ERR_E{
+		text-align:center;
+		color:red;
+		font-size:16px;
+		margin:10px;
+		font-weight:bold;
+}
+.S_ERROR{
+		color:red;
+}
+.S_ERR_DANE{
+		color:red;
+}
+.P_DANE{
+		text-align:left;
+		margin:5px;
+		font-weight:normal;
+		color:grey;
+		font-style:italic;
+}
+.P_ERR_MAIN{
+			text-align: center; 
+			font-size: 22px; 
+			font-weight:bold; 
+			color:red;
+			margin-top:50px;
+}
+.P_SEL{
+		margin:5px;
+		text-align:center;
+}
+.SEL_S{
+		height:23px;
+		width:170px;
+}
+.OPTION_R{
+			font-weight:bold; 
+			color: BLACK ;
+			background: none repeat scroll 0%  0% white;
+}
+.button {
+	float:right;
+	margin:0px;
+	text-decoration: none;
+	display: block;
+	width: 70px;
+	height:28px;
+	text-align: center;
+	background-color: orange;
+	color: #000;
+	border: 2px outset orange;
+	padding: 2px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+/* dziedziczy po buttonbutton */
+.button:hover {
+	border-style: inset;
+	color:#FFFFFF;
+}
+.s_button {
+	float:right;
+	margin-bottom:10px;
+	text-decoration: none;
+	display: block;
+	width: 62px;
+	height:16px;
+	text-align: center;
+	background-color: orange;
+	color: #000;
+	border: 2px outset orange;
+	padding: 4px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.s_button:hover {
+	border-style: inset;
+	color:#FFFFFF;
+}
+p.P_NG_INF{
+			text-align: center; 
+			font-size: 16px; 
+			font-weight:bold;
+}
+input[type="file"] {
+    width: 250px;
+    display: block;
+    margin-bottom: 0px;
+	color:white;
+    background-color: purple;
+	font-size: 14px;
+	font-weight:bold;
+	border:1px solid purple;
+}
+.SELECT{
+		height:23px;
+		width:170px;
+		border:1px solid purple;
+	
+}
+.OPTGROUP{
+		color:white;
+		background-color:purple;
+		font-weight:bold;
+}
+.OPTION{
+		font-weight:bold; 
+		color: BLACK ;
+		background: white;
+}
+.TEXTAREA{
+		border:1px solid purple;
+}
+a.A_BACK_MAIN:link,a.A_BACK_MAIN:visited{
+									color:#0099FF;font-weight:bold;text-decoration:none;font-size:18px;}
+			a.A_BACK_MAIN:hover {color:#000000;font-weight:bold;text-decoration:none;font-size:18px;}
+			p.P_MAIN_NG{font-size: 22px;font-weight:bold;color:red;margin-top:50px;}
+			span.S_MAIN_NG{color:orange;font-size:22px;}
+.P_CSS_NG{
+		text-align: left; 
+		font-size: 16px; 
+		font-weight:bold; 
+		noresize:noresize; 
+		margin:10px;
+	
+}

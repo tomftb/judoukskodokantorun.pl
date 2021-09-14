@@ -1,0 +1,95 @@
+a:link	{
+	color:#0099FF;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+a:visited	{
+	color:#0099FF;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+a:hover {
+	color:ORANGE;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;
+	font-family:"Times New Roman",Georgia,Serif;
+	}
+.INP_LOG{
+		WIDTH:180px;
+		BORDER:1px solid black;
+}
+.button {
+	float: right;
+	list-style: none;
+	margin-top:10px;
+	margin-bottom:0px;
+	text-decoration: none;
+	display: block;
+	width: 70px;
+	height:28px;
+	text-align: center;
+	background-color: #0099FF;
+	color: #000;
+	border: 2px outset #0099FF;
+	padding: 2px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.button:hover {
+	float: right;
+	list-style: none;
+	margin-top:10px;
+	margin-bottom:0px;
+	text-align: center;
+	width: 70px;
+	height:28px;
+	border-style: inset;
+	padding: 2px;
+	color:#FFFFFF;
+	font-size:14px;
+	border: 2px inset #0099FF;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.F_ERROR{
+		color:red;
+		font-size:14px;
+		font-weight:normal;
+		margin-top:5px;
+		padding-top:5px;
+		font-family:Georgia;
+		text-align:center;
+}
+.S_ERROR{
+	color:black;
+	font-size:12px;
+	font-weight:normal;
+	margin:0px;
+}
+span.F_TYTUL{
+		color:orange;
+		font-weight:bold;
+		font-size:16px;
+		font-family:Georgia;
+}
+.P_INF_LOG{
+			text-align:left;
+			font-weight:bold;
+			margin:10px 0px 0px 30px;
+			font-family:Georgia;
+}
+.FIELD{
+		width:350px;
+		background-color:#F0F0F0;
+		border: 1px solid orange;
+}
+.P_KOM{
+		color:orange;
+		font-weight:bold;
+		font-size:16px;
+}

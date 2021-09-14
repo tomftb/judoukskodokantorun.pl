@@ -1,0 +1,519 @@
+a,p,span,ul,li{
+			font-family:"Times New Roman",Georgia,Serif,Tahoma, Arial, ;
+}
+
+.P_MAIN_CEL{
+			font-weight:bold;
+			font-size:34px;
+			color:black;
+			text-align:center;
+}
+.S_ERR_RED{
+		color:red;
+}
+.S_ERR_BLACK{
+		color:black;
+		font-size:16px;
+		font-weight:bold;
+}
+.s_button_off {
+	float:right;
+	margin-bottom:5px;
+	text-decoration: none;
+	display: block;
+	width: 74px;
+	height:28px;
+	text-align: center;
+	background-color:  #D8D8D8;
+	color: #000;
+	border: 2px outset #D8D8D8;
+	padding: 4px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.s_button_off:hover {
+	color: #000;
+	border: 2px outset #D8D8D8;
+	background-color:  #D8D8D8;
+}
+div {
+	width:800px;
+}
+table, th, td,tr {
+	border: 0px solid white;
+    border-collapse: collapse;
+	vertical-align:top;
+} 
+textarea.TEXTAREA{
+	resize:none;
+	border:1px solid purple;
+	margin-bottom:5px;
+}
+td.TD_L{
+		width:390px;
+}
+td.TD_R{
+		width:350px;
+}
+a:link	{
+	color:black;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:visited{
+	color:black;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;	
+	}
+a:hover {
+	color:blue;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:11px;
+	}
+.DIV_MAIN{
+			background-color:#E6E6FA; 
+			border:1px; 
+			border-style:solid; 
+			border-radius:10px; 
+			margin:5px; 
+			border-color:orange;
+			float:center;
+			
+}
+
+.DIV_IMG{
+		margin-top:20px;
+		margin-left:0px; 
+		display:table-cell;
+		float:left;
+		padding-left:0px; 
+		padding-bottom:25px;
+		width:800px;
+}
+.DIV_SHOW_IMG{
+		margin-top:20px;
+		margin-left:5px; 
+		display:table-cell;
+		float:left;
+		padding-left:0px; 
+		padding-bottom:25px;
+		width:190px;
+}
+.DIV_OPCJ{
+			width:800px; 
+			height:40px; 
+			display:table-cell; 
+			vertical-align:top;
+			margin-bottom:15px;
+			padding-top:0px;
+			margin-right:0px;
+			
+}
+p.P_INFO_IMG{
+			color:grey;
+			font-size:12px;
+			margin-top:5px;
+			text-align:right;
+			margin-right:240px;
+}
+p.P_INFO_OP{
+			color:grey;
+			font-size:12px;
+			margin-top:5px;
+			text-align:right;
+			margin-right:10px;
+}
+.DIV_CLEAR{
+			clear:both;
+			height:0px;
+}
+.DIV_INFO{ 
+			height:50px;
+}
+div.DIV_DODAJ{
+			padding-top:0px; 
+			padding-left:0px; 
+			width:740px; 
+			padding-bottom:5px;
+			border:1px solid black;
+			margin-top:0px;
+			margin-bottom:5px;
+}
+.S_NG_MAIN{
+			float:left; 
+			color: #0099FF ;
+			margin:10px;
+			font-size: 16px;
+}
+.S_NG_INF{
+		color: black; 
+		font-size: 18px; 
+		font-weight: bold;
+}
+span.S_STAT{
+		color: black; 
+		font-size: 18px;
+		font-weight: bold; 
+}
+span.S_STAT_N{
+		color: red; 
+		font-size: 18px;
+		font-weight: bold; 
+}
+#loading{
+			width:100%; 
+			text-align:left; 
+			top:0px; 
+			left:0px;
+}
+#load_img{
+		border:0px; 
+		width:128px; 
+		height:15px;
+}
+.naglowek {
+font-weight:bold;
+font-size:18px;
+background-color:white;
+border:0px;
+}
+body{
+		background-color:WHITE;
+}
+.P_HREF_BACK{
+			text-align: left; 
+			margin:20px;
+}
+.P_HREF_BACK2{
+			text-align: center; 
+			margin:20px;
+}
+.P_PODAJ{
+			text-align: center;
+			color:black;
+			font-size: 16px; 
+			font-weight:bold;
+}
+.P_BACK{
+			text-align: center;
+			color:black;
+			font-size: 16px; 
+			font-weight:bold;
+}
+.P_BACK .S_BACK{
+		font-weight:normal;
+}
+.P_BACK .S_BACK2{
+		color:#0099FF;
+}
+
+.P_INPUT{
+			text-align:left;
+			margin-left:10px;
+			margin-top:5px;
+			margin-bottom:5px;
+}
+
+p.NG_DANE{
+			text-align: left; 
+			font-size: 20px; 
+			font-weight:bold;
+			margin-left:50px;
+}
+span.S_NG_DANE{
+				color:#B700FF;
+}
+.S_DODAJ{
+		color:#0099FF;
+}
+.TAB_TREN{
+			background-color:#E6E6FA; 
+			width:790px; 
+			border:1px;
+}
+.P_SQL_OK{
+			color:green;
+			font-size:14px;
+			text-align:center;
+			margin:5px;
+}
+.S_SQL{			color:black;
+}
+.P_SQL_ERR{
+			color:red;
+			font-size:14px;
+			text-align:center;
+			margin:5px;
+}
+/*-------------------------------*/
+.P_POZ_BUT{
+			margin-right:330px;
+			margin-top:0px;
+			margin-bottom:0px;
+}
+a.A_BACK:link, a.A_BACK:visited 	{
+	color:#0099FF;	
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;	
+	}
+a.A_BACK:hover {
+	color:#000000;
+	font-weight:bold;
+	text-decoration: none;
+	font-size:16px;
+	}
+ul a:link, ul a:visited {
+	text-decoration: none;
+	display: block;
+	width: 205px;
+	height:20px;
+	text-align: center;
+	background-color: ORANGE;
+	color: #000;
+	border: 2px outset ORANGE;
+	font-weight:bold;
+	font-size:18px;
+	margin:0px;
+	padding:5px;
+}
+ul a:hover {
+	width: 205px;
+	height:20px;
+	border-style: inset;
+	color:#FFFFFF;
+	font-size:18px;
+	margin:0px;
+	padding: 5px;
+}
+
+.P_TD{
+		text-align: center; 
+		font-size: 16px; 
+		font-weight:bold; 
+		background:#6495ED;
+		noresize:noresize;
+		margin:0px;
+		padding:2px;
+}
+.P_MAIN{
+		font-weight:bold;
+		font-size:24px;
+		color:black;
+		text-align:center;
+}
+.P_SUBMIT{
+		text-align: right; 
+		margin:20px;
+}
+.P_LEG{
+		color:black;
+		font-weight:bold;
+		font-size:16px;
+		text-align:left;
+		margin-left:50px;
+		margin-bottom:2px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ul.UL_LEG{
+		margin:0px;
+		list-style-type: square;
+}
+li.LI_LEG{
+			text-align:left;
+			margin-left:100px;
+			margin-top:2px;
+			margin-bottom:2px;
+			font-family: "Times New Roman", Georgia, Serif;
+}
+.S_LEG_INFO{
+			color:#B700FF;
+			font-weight:bold;
+}
+.P_INFO{
+		text-align:left; 
+		color:green; 
+		margin:5px;
+		font-size:14px;
+		font-weight:normal;
+}
+.S_INFO{
+		color:black;
+		font-size:14px;
+}
+.P_ERROR{
+		text-align:left;
+		color:red;
+		font-size:14px;
+		margin:10px;
+		font-weight:normal;
+}
+.P_ERR_E{
+		text-align:center;
+		color:red;
+		font-size:20px;
+		margin:10px;
+		font-weight:bold;
+}
+.S_ERROR{
+		color:black;
+}
+.S_ERR_DANE{
+		color:red;
+		font-weight:bold;
+		font-size:14px;
+}
+.S_OK_DANE{
+		color:GREEN;
+		font-weight:bold;
+		font-size:14px;
+}
+.P_DANE{
+		text-align:center;
+		margin:5px;
+		font-weight:normal;
+		color:grey;
+		font-style:italic;
+}
+.P_ERR_MAIN{
+			text-align: center; 
+			font-size: 22px; 
+			font-weight:bold; 
+			color:red;
+			margin-top:50px;
+}
+.P_SEL{
+		margin:5px;
+		text-align:center;
+}
+.SEL_S{
+		height:23px;
+		width:170px;
+}
+.OPTION_R{
+			font-weight:bold; 
+			color: BLACK ;
+			background: none repeat scroll 0%  0% white;
+}
+.button {
+	float:right;
+	margin:0px;
+	text-decoration: none;
+	display: block;
+	width: 70px;
+	height:28px;
+	text-align: center;
+	background-color: orange;
+	color: #000;
+	border: 2px outset orange;
+	padding: 2px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+/* dziedziczy po buttonbutton */
+.button:hover {
+	border-style: inset;
+	color:#FFFFFF;
+}
+.s_button {
+	float:right;
+	margin-bottom:5px;
+	text-decoration: none;
+	display: block;
+	width: 62px;
+	height:16px;
+	text-align: center;
+	background-color: orange;
+	color: #000;
+	border: 2px outset orange;
+	padding: 4px;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"Times New Roman",Georgia,Serif;
+}
+.s_button:hover {
+	border-style: inset;
+	color:#FFFFFF;
+}
+p.P_NG_INF{
+			text-align: center; 
+			font-size: 16px; 
+			font-weight:bold;
+}
+input[type="file"] {
+    width: 250px;
+    display: block;
+    margin-bottom: 0px;
+	color:white;
+    background-color: purple;
+	font-size: 14px;
+	font-weight:bold;
+	border:1px solid purple;
+}
+.SELECT{
+		height:23px;
+		width:170px;
+		border:1px solid purple;
+	
+}
+.OPTGROUP{
+		color:white;
+		background-color:purple;
+		font-weight:bold;
+}
+.OPTION{
+		font-weight:bold; 
+		color: BLACK ;
+		background: white;
+}
+a.A_BACK_MAIN:link, a.A_BACK_MAIN:visited{
+										color:#0099FF;
+										font-weight:bold;
+										text-decoration:none;
+										font-size:18px;
+										}
+a.A_BACK_MAIN:hover {
+					color:#000000;
+					font-weight:bold;
+					text-decoration:none;
+					font-size:18px;
+					}
+.P_MAIN_NG{
+			font-size: 22px;
+			font-weight:bold;
+			color:red;
+			margin-top:50px;
+			}
+.S_MAIN_NG{
+				color:orange;
+				font-size:22px;
+				}
+.S_WIDOK_STAT{
+float:right; 
+text-align:right; 
+color: #0099FF;
+margin-top:10px;
+}
+.S_NG_GF{
+	color: grey; 
+	font-size: 18px;
+	font-style:italic;
+}
+.P_DANE{
+		text-align:center;
+		margin:5px;
+		font-weight:normal;
+		color:grey;
+		font-style:italic;
+}
+.S_INF_TYT{
+	font-weight:bold;
+	font-size:14px;
+	color:black;
+	font-style:normal;
+}
